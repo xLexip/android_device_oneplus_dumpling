@@ -31,7 +31,7 @@ TARGET_USES_BLUR := true
 PRODUCT_NAME := aosp_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := Google
-PRODUCT_BRAND := google
+PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 5
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -45,7 +45,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=OnePlus5T
 
 # Fingerprint
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.210305.005 7119741 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210405.005 7181113 release-keys"
 TARGET_VENDOR := oneplus
